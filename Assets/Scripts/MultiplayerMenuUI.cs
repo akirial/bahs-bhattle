@@ -547,6 +547,10 @@ public class MultiplayerMenuUI : MonoBehaviourPunCallbacks
             b.onClick.AddListener(() => OnColorPicked(idx));
             _colorButtons[i] = b;
         }
+
+        MakeLabel(transform, "VersionLabel", $"v{Application.version}", font, 14,
+            new Vector2(1f, 0f), new Vector2(-14f, 14f), new Vector2(260f, 26f), TextAnchor.LowerRight,
+            new Color(1f, 1f, 1f, 0.45f), FontStyle.Normal);
     }
 
     // =================== UI helpers ===================

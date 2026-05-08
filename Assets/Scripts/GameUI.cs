@@ -42,6 +42,7 @@ public class GameUI : MonoBehaviourPunCallbacks
     private Slider _sensitivitySlider;
     private Text _sensitivityLabel;
     private bool _pauseOpen;
+    private Text _versionText;
 
     private NetworkPlayerHealth _playerHealth;
     private NetworkGunController _gun;
@@ -83,6 +84,8 @@ public class GameUI : MonoBehaviourPunCallbacks
         {
             BuildAutoUI();
         }
+
+        EnsureVersionLabel();
 
         _canvas.enabled = true;
         if (deathMessage != null) deathMessage.SetActive(false);
@@ -621,6 +624,21 @@ public class GameUI : MonoBehaviourPunCallbacks
         bossDefeatedMessage = MakeMessage("BossDefeatedMessage", "BOSS DEFEATED", font, new Color(0.3f, 1f, 0.4f), 100f);
 
         BuildControlsPanel(font);
+    }
+
+    private void EnsureVersionLabel()
+    {
+        if (_versionText != null) return;
+
+        Font font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+        _versionText = MakeText(transform, "VersionText", $"v{Application.version}", font, 15, TextAnchor.LowerRight);
+        _versionText.color = new Color(1f, 1f, 1f, 0.45f);
+        _versionText.raycastTarget = false;
+        var rt = _versionText.rectTransform;
+        rt.anchorMin = rt.anchorMax = new Vector2(1f, 0f);
+        rt.pivot = new Vector2(1f, 0f);
+        rt.anchoredPosition = new Vector2(-14f, 10f);
+        rt.sizeDelta = new Vector2(280f, 24f);
     }
 
     private void BuildControlsPanel(Font font)
