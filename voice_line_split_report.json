@@ -1,0 +1,400 @@
+{
+  "input_file": "/Users/teletubby/Downloads/sixfaceszerochill (1).wav",
+  "total_chunks_detected": 47,
+  "expected_line_count": 38,
+  "match": false,
+  "warnings": [
+    "MISMATCH: Detected 47 chunks but expected 38. Adjust --silence-thresh or --min-silence.",
+    "Extra chunk #39 at 130455ms-132785ms (2.33s) - not exported",
+    "Extra chunk #40 at 133430ms-134705ms (1.27s) - not exported",
+    "Extra chunk #41 at 136780ms-138060ms (1.28s) - not exported",
+    "Extra chunk #42 at 139910ms-144995ms (5.08s) - not exported",
+    "Extra chunk #43 at 146475ms-151180ms (4.71s) - not exported",
+    "Extra chunk #44 at 152990ms-154070ms (1.08s) - not exported",
+    "Extra chunk #45 at 155195ms-157290ms (2.10s) - not exported",
+    "Extra chunk #46 at 158360ms-161475ms (3.12s) - not exported",
+    "Extra chunk #47 at 162055ms-163960ms (1.91s) - not exported"
+  ],
+  "exported_files": [
+    {
+      "line_number": 1,
+      "category": "Intro",
+      "line_text": "Behold the cube root of all evil",
+      "filename": "Intro_01_behold_the_cube_root_of_all_evil.wav",
+      "path": "Assets/Audio/BossVoice/Intro/Intro_01_behold_the_cube_root_of_all_evil.wav",
+      "start_ms": 725,
+      "end_ms": 4190,
+      "duration_ms": 3465
+    },
+    {
+      "line_number": 2,
+      "category": "Intro",
+      "line_text": "I am not a box I am a problem with corners",
+      "filename": "Intro_02_i_am_not_a_box_i_am_a_problem_with_corners.wav",
+      "path": "Assets/Audio/BossVoice/Intro/Intro_02_i_am_not_a_box_i_am_a_problem_with_corners.wav",
+      "start_ms": 7590,
+      "end_ms": 10625,
+      "duration_ms": 3035
+    },
+    {
+      "line_number": 3,
+      "category": "Intro",
+      "line_text": "Six faces zero chill",
+      "filename": "Intro_03_six_faces_zero_chill.wav",
+      "path": "Assets/Audio/BossVoice/Intro/Intro_03_six_faces_zero_chill.wav",
+      "start_ms": 13665,
+      "end_ms": 16675,
+      "duration_ms": 3010
+    },
+    {
+      "line_number": 4,
+      "category": "Slam",
+      "line_text": "Bonk incoming",
+      "filename": "Slam_01_bonk_incoming.wav",
+      "path": "Assets/Audio/BossVoice/Slam/Slam_01_bonk_incoming.wav",
+      "start_ms": 17215,
+      "end_ms": 18590,
+      "duration_ms": 1375
+    },
+    {
+      "line_number": 5,
+      "category": "Slam",
+      "line_text": "Big bonk",
+      "filename": "Slam_02_big_bonk.wav",
+      "path": "Assets/Audio/BossVoice/Slam/Slam_02_big_bonk.wav",
+      "start_ms": 21425,
+      "end_ms": 22550,
+      "duration_ms": 1125
+    },
+    {
+      "line_number": 6,
+      "category": "Slam",
+      "line_text": "Newton said I could",
+      "filename": "Slam_03_newton_said_i_could.wav",
+      "path": "Assets/Audio/BossVoice/Slam/Slam_03_newton_said_i_could.wav",
+      "start_ms": 25595,
+      "end_ms": 27010,
+      "duration_ms": 1415
+    },
+    {
+      "line_number": 7,
+      "category": "Slam",
+      "line_text": "Get flattened",
+      "filename": "Slam_04_get_flattened.wav",
+      "path": "Assets/Audio/BossVoice/Slam/Slam_04_get_flattened.wav",
+      "start_ms": 28365,
+      "end_ms": 29985,
+      "duration_ms": 1620
+    },
+    {
+      "line_number": 8,
+      "category": "DelayedFakeout",
+      "line_text": "Wait for it",
+      "filename": "DelayedFakeout_01_wait_for_it.wav",
+      "path": "Assets/Audio/BossVoice/DelayedFakeout/DelayedFakeout_01_wait_for_it.wav",
+      "start_ms": 31365,
+      "end_ms": 32505,
+      "duration_ms": 1140
+    },
+    {
+      "line_number": 9,
+      "category": "DelayedFakeout",
+      "line_text": "Too early",
+      "filename": "DelayedFakeout_02_too_early.wav",
+      "path": "Assets/Audio/BossVoice/DelayedFakeout/DelayedFakeout_02_too_early.wav",
+      "start_ms": 33305,
+      "end_ms": 34190,
+      "duration_ms": 885
+    },
+    {
+      "line_number": 10,
+      "category": "DelayedFakeout",
+      "line_text": "You dodged air impressive",
+      "filename": "DelayedFakeout_03_you_dodged_air_impressive.wav",
+      "path": "Assets/Audio/BossVoice/DelayedFakeout/DelayedFakeout_03_you_dodged_air_impressive.wav",
+      "start_ms": 36485,
+      "end_ms": 37400,
+      "duration_ms": 915
+    },
+    {
+      "line_number": 11,
+      "category": "DelayedFakeout",
+      "line_text": "I was buffering the bonk",
+      "filename": "DelayedFakeout_04_i_was_buffering_the_bonk.wav",
+      "path": "Assets/Audio/BossVoice/DelayedFakeout/DelayedFakeout_04_i_was_buffering_the_bonk.wav",
+      "start_ms": 38355,
+      "end_ms": 39055,
+      "duration_ms": 700
+    },
+    {
+      "line_number": 12,
+      "category": "Roll",
+      "line_text": "Beep beep cube coming through",
+      "filename": "Roll_01_beep_beep_cube_coming_through.wav",
+      "path": "Assets/Audio/BossVoice/Roll/Roll_01_beep_beep_cube_coming_through.wav",
+      "start_ms": 40375,
+      "end_ms": 41665,
+      "duration_ms": 1290
+    },
+    {
+      "line_number": 13,
+      "category": "Roll",
+      "line_text": "No brakes",
+      "filename": "Roll_02_no_brakes.wav",
+      "path": "Assets/Audio/BossVoice/Roll/Roll_02_no_brakes.wav",
+      "start_ms": 42315,
+      "end_ms": 43400,
+      "duration_ms": 1085
+    },
+    {
+      "line_number": 14,
+      "category": "Roll",
+      "line_text": "Im on a roll",
+      "filename": "Roll_03_im_on_a_roll.wav",
+      "path": "Assets/Audio/BossVoice/Roll/Roll_03_im_on_a_roll.wav",
+      "start_ms": 44640,
+      "end_ms": 46215,
+      "duration_ms": 1575
+    },
+    {
+      "line_number": 15,
+      "category": "Roll",
+      "line_text": "Cube drift",
+      "filename": "Roll_04_cube_drift.wav",
+      "path": "Assets/Audio/BossVoice/Roll/Roll_04_cube_drift.wav",
+      "start_ms": 48170,
+      "end_ms": 50465,
+      "duration_ms": 2295
+    },
+    {
+      "line_number": 16,
+      "category": "Laser",
+      "line_text": "Say hello to my little face",
+      "filename": "Laser_01_say_hello_to_my_little_face.wav",
+      "path": "Assets/Audio/BossVoice/Laser/Laser_01_say_hello_to_my_little_face.wav",
+      "start_ms": 51585,
+      "end_ms": 52955,
+      "duration_ms": 1370
+    },
+    {
+      "line_number": 17,
+      "category": "Laser",
+      "line_text": "Beam time",
+      "filename": "Laser_02_beam_time.wav",
+      "path": "Assets/Audio/BossVoice/Laser/Laser_02_beam_time.wav",
+      "start_ms": 54720,
+      "end_ms": 55840,
+      "duration_ms": 1120
+    },
+    {
+      "line_number": 18,
+      "category": "Laser",
+      "line_text": "Face the consequences",
+      "filename": "Laser_03_face_the_consequences.wav",
+      "path": "Assets/Audio/BossVoice/Laser/Laser_03_face_the_consequences.wav",
+      "start_ms": 57545,
+      "end_ms": 59070,
+      "duration_ms": 1525
+    },
+    {
+      "line_number": 19,
+      "category": "Laser",
+      "line_text": "Laser tax",
+      "filename": "Laser_04_laser_tax.wav",
+      "path": "Assets/Audio/BossVoice/Laser/Laser_04_laser_tax.wav",
+      "start_ms": 60635,
+      "end_ms": 62820,
+      "duration_ms": 2185
+    },
+    {
+      "line_number": 20,
+      "category": "BigLaser",
+      "line_text": "Time to sweep the competition",
+      "filename": "BigLaser_01_time_to_sweep_the_competition.wav",
+      "path": "Assets/Audio/BossVoice/BigLaser/BigLaser_01_time_to_sweep_the_competition.wav",
+      "start_ms": 64445,
+      "end_ms": 67185,
+      "duration_ms": 2740
+    },
+    {
+      "line_number": 21,
+      "category": "BigLaser",
+      "line_text": "All faces online",
+      "filename": "BigLaser_02_all_faces_online.wav",
+      "path": "Assets/Audio/BossVoice/BigLaser/BigLaser_02_all_faces_online.wav",
+      "start_ms": 68485,
+      "end_ms": 69905,
+      "duration_ms": 1420
+    },
+    {
+      "line_number": 22,
+      "category": "BigLaser",
+      "line_text": "Six faces zero chill 2",
+      "filename": "BigLaser_03_six_faces_zero_chill_2.wav",
+      "path": "Assets/Audio/BossVoice/BigLaser/BigLaser_03_six_faces_zero_chill_2.wav",
+      "start_ms": 71385,
+      "end_ms": 73010,
+      "duration_ms": 1625
+    },
+    {
+      "line_number": 23,
+      "category": "BigLaser",
+      "line_text": "Cleanup on aisle you",
+      "filename": "BigLaser_04_cleanup_on_aisle_you.wav",
+      "path": "Assets/Audio/BossVoice/BigLaser/BigLaser_04_cleanup_on_aisle_you.wav",
+      "start_ms": 75465,
+      "end_ms": 77880,
+      "duration_ms": 2415
+    },
+    {
+      "line_number": 24,
+      "category": "Fakeout",
+      "line_text": "Charging laser just kidding",
+      "filename": "Fakeout_01_charging_laser_just_kidding.wav",
+      "path": "Assets/Audio/BossVoice/Fakeout/Fakeout_01_charging_laser_just_kidding.wav",
+      "start_ms": 79505,
+      "end_ms": 82175,
+      "duration_ms": 2670
+    },
+    {
+      "line_number": 25,
+      "category": "Fakeout",
+      "line_text": "Gotcha",
+      "filename": "Fakeout_02_gotcha.wav",
+      "path": "Assets/Audio/BossVoice/Fakeout/Fakeout_02_gotcha.wav",
+      "start_ms": 83500,
+      "end_ms": 86685,
+      "duration_ms": 3185
+    },
+    {
+      "line_number": 26,
+      "category": "Fakeout",
+      "line_text": "You thought slam I thought beam",
+      "filename": "Fakeout_03_you_thought_slam_i_thought_beam.wav",
+      "path": "Assets/Audio/BossVoice/Fakeout/Fakeout_03_you_thought_slam_i_thought_beam.wav",
+      "start_ms": 88550,
+      "end_ms": 90620,
+      "duration_ms": 2070
+    },
+    {
+      "line_number": 27,
+      "category": "BossHurt",
+      "line_text": "Ow my favorite face",
+      "filename": "BossHurt_01_ow_my_favorite_face.wav",
+      "path": "Assets/Audio/BossVoice/BossHurt/BossHurt_01_ow_my_favorite_face.wav",
+      "start_ms": 92515,
+      "end_ms": 93495,
+      "duration_ms": 980
+    },
+    {
+      "line_number": 28,
+      "category": "BossHurt",
+      "line_text": "Warranty",
+      "filename": "BossHurt_02_warranty.wav",
+      "path": "Assets/Audio/BossVoice/BossHurt/BossHurt_02_warranty.wav",
+      "start_ms": 94110,
+      "end_ms": 95170,
+      "duration_ms": 1060
+    },
+    {
+      "line_number": 29,
+      "category": "BossHurt",
+      "line_text": "My warranty doesnt cover bullets",
+      "filename": "BossHurt_03_my_warranty_doesnt_cover_bullets.wav",
+      "path": "Assets/Audio/BossVoice/BossHurt/BossHurt_03_my_warranty_doesnt_cover_bullets.wav",
+      "start_ms": 95690,
+      "end_ms": 96230,
+      "duration_ms": 540
+    },
+    {
+      "line_number": 30,
+      "category": "PlayerHit",
+      "line_text": "You have been cubed",
+      "filename": "PlayerHit_01_you_have_been_cubed.wav",
+      "path": "Assets/Audio/BossVoice/PlayerHit/PlayerHit_01_you_have_been_cubed.wav",
+      "start_ms": 98640,
+      "end_ms": 99305,
+      "duration_ms": 665
+    },
+    {
+      "line_number": 31,
+      "category": "PlayerHit",
+      "line_text": "Too slow",
+      "filename": "PlayerHit_02_too_slow.wav",
+      "path": "Assets/Audio/BossVoice/PlayerHit/PlayerHit_02_too_slow.wav",
+      "start_ms": 101620,
+      "end_ms": 105085,
+      "duration_ms": 3465
+    },
+    {
+      "line_number": 32,
+      "category": "PlayerHit",
+      "line_text": "Geometry lesson complete",
+      "filename": "PlayerHit_03_geometry_lesson_complete.wav",
+      "path": "Assets/Audio/BossVoice/PlayerHit/PlayerHit_03_geometry_lesson_complete.wav",
+      "start_ms": 106460,
+      "end_ms": 110110,
+      "duration_ms": 3650
+    },
+    {
+      "line_number": 33,
+      "category": "PhaseTwo",
+      "line_text": "Youve activated my villain arc it has corners",
+      "filename": "PhaseTwo_01_youve_activated_my_villain_arc_it_has_corners.wav",
+      "path": "Assets/Audio/BossVoice/PhaseTwo/PhaseTwo_01_youve_activated_my_villain_arc_it_has_corners.wav",
+      "start_ms": 111835,
+      "end_ms": 113030,
+      "duration_ms": 1195
+    },
+    {
+      "line_number": 34,
+      "category": "PhaseTwo",
+      "line_text": "Phase two",
+      "filename": "PhaseTwo_02_phase_two.wav",
+      "path": "Assets/Audio/BossVoice/PhaseTwo/PhaseTwo_02_phase_two.wav",
+      "start_ms": 113715,
+      "end_ms": 114775,
+      "duration_ms": 1060
+    },
+    {
+      "line_number": 35,
+      "category": "PhaseTwo",
+      "line_text": "I was only using five faces the sixth one is personal",
+      "filename": "PhaseTwo_03_i_was_only_using_five_faces_the_sixth_one_is_perso.wav",
+      "path": "Assets/Audio/BossVoice/PhaseTwo/PhaseTwo_03_i_was_only_using_five_faces_the_sixth_one_is_perso.wav",
+      "start_ms": 115510,
+      "end_ms": 118260,
+      "duration_ms": 2750
+    },
+    {
+      "line_number": 36,
+      "category": "Death",
+      "line_text": "Tell my corners I loved them",
+      "filename": "Death_01_tell_my_corners_i_loved_them.wav",
+      "path": "Assets/Audio/BossVoice/Death/Death_01_tell_my_corners_i_loved_them.wav",
+      "start_ms": 120000,
+      "end_ms": 122635,
+      "duration_ms": 2635
+    },
+    {
+      "line_number": 37,
+      "category": "Death",
+      "line_text": "Cube down",
+      "filename": "Death_02_cube_down.wav",
+      "path": "Assets/Audio/BossVoice/Death/Death_02_cube_down.wav",
+      "start_ms": 123920,
+      "end_ms": 124745,
+      "duration_ms": 825
+    },
+    {
+      "line_number": 38,
+      "category": "Death",
+      "line_text": "Remember me as more than a box",
+      "filename": "Death_03_remember_me_as_more_than_a_box.wav",
+      "path": "Assets/Audio/BossVoice/Death/Death_03_remember_me_as_more_than_a_box.wav",
+      "start_ms": 126515,
+      "end_ms": 128785,
+      "duration_ms": 2270
+    }
+  ]
+}
