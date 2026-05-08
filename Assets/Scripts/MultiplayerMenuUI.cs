@@ -424,12 +424,12 @@ public class MultiplayerMenuUI : MonoBehaviourPunCallbacks
             _canvas.renderMode = RenderMode.ScreenSpaceOverlay;
         }
         _canvas.sortingOrder = 100;
-        if (GetComponent<CanvasScaler>() == null)
-        {
-            var scaler = gameObject.AddComponent<CanvasScaler>();
-            scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
-            scaler.referenceResolution = new Vector2(1920, 1080);
-        }
+        CanvasScaler scaler = GetComponent<CanvasScaler>();
+        if (scaler == null) scaler = gameObject.AddComponent<CanvasScaler>();
+        scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
+        scaler.referenceResolution = new Vector2(1920f, 1080f);
+        scaler.screenMatchMode = CanvasScaler.ScreenMatchMode.MatchWidthOrHeight;
+        scaler.matchWidthOrHeight = 0.5f;
         if (GetComponent<GraphicRaycaster>() == null)
             gameObject.AddComponent<GraphicRaycaster>();
     }
